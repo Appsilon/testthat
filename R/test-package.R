@@ -5,7 +5,8 @@
 #' * `test_package()` tests an installed package.
 #' * `test_check()` checks a package during `R CMD check`.
 #'
-#' Tests live in `tests/testthat`.
+#' See `vignette("special-files")` to learn about the various files that
+#' testthat works with.
 #'
 #' @section `R CMD check`:
 #' To run testthat automatically from `R CMD check`, make sure you have
@@ -19,7 +20,6 @@
 #' ```
 #'
 #' @inherit test_dir return params
-#' @inheritSection test_dir Special files
 #' @inheritSection test_dir Environments
 #' @param ... Additional arguments passed to [test_dir()]
 #' @export
@@ -45,6 +45,8 @@ test_package <- function(package, reporter = check_reporter(), ...) {
 test_check <- function(package, reporter = check_reporter(), ...) {
   require(package, character.only = TRUE)
   options(cli.hyperlink = FALSE)
+
+  withr::local_envvar(TESTTHAT_IS_CHECKING = "true")
 
   test_dir(
     "testthat",
