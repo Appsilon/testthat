@@ -1,45 +1,10 @@
 # Revdeps
 
-## Failed to check (31)
+## New problems (3)
 
-|package      |version |error |warning |note |
-|:------------|:-------|:-----|:-------|:----|
-|Boom         |0.9.10  |1     |        |     |
-|CausalImpact |?       |      |        |     |
-|NA           |?       |      |        |     |
-|ctsem        |3.7.1   |1     |        |     |
-|NA           |?       |      |        |     |
-|elbird       |0.2.5   |1     |        |     |
-|ggPMX        |?       |      |        |     |
-|NA           |?       |      |        |     |
-|NA           |?       |      |        |     |
-|loon.ggplot  |?       |      |        |     |
-|loon.shiny   |?       |      |        |     |
-|loon.tourr   |?       |      |        |     |
-|NA           |?       |      |        |     |
-|NA           |?       |      |        |     |
-|mlrCPO       |0.3.7-4 |1     |        |     |
-|nlmixr2      |?       |      |        |     |
-|nlmixr2extra |?       |      |        |     |
-|nlmixr2plot  |?       |      |        |     |
-|NA           |?       |      |        |     |
-|OpenMx       |?       |      |        |     |
-|NA           |?       |      |        |     |
-|rPBK         |0.2.0   |1     |        |     |
-|NA           |?       |      |        |     |
-|NA           |?       |      |        |     |
-|SSVS         |?       |      |        |     |
-|NA           |?       |      |        |     |
-|NA           |?       |      |        |     |
-|tidySEM      |?       |      |        |     |
-|NA           |?       |      |        |     |
-|vivid        |?       |      |        |     |
-|NA           |?       |      |        |     |
-
-## New problems (2)
-
-|package      |version |error  |warning |note |
-|:------------|:-------|:------|:-------|:----|
-|[datagovindia](problems.md#datagovindia)|1.0.5   |       |__+1__  |     |
-|[hyperSpec](problems.md#hyperspec)|0.100.0 |__+1__ |        |1    |
+|package   |version |error  |warning |note |
+|:---------|:-------|:------|:-------|:----|
+|[bayes4psy](problems.md#bayes4psy)|1.2.11  |__+1__ |        |2    |
+|[covidcast](problems.md#covidcast)|0.5.0   |__+1__ |        |1    |
+|[xpose](problems.md#xpose)|0.4.16  |__+1__ |        |     |
 
